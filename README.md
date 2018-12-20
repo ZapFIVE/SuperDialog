@@ -7,7 +7,9 @@
 ![顶部弹窗](https://github.com/ZapFIVE/SuperDialog/raw/master/img/Screenshot_2018-12-20-15-10-35.png)![底部弹窗](https://github.com/ZapFIVE/SuperDialog/raw/master/img/Screenshot_2018-12-20-15-10-41.png)
 ![双选项弹窗](https://github.com/ZapFIVE/SuperDialog/raw/master/img/Screenshot_2018-12-20-15-10-55.png)![但选项弹窗](https://github.com/ZapFIVE/SuperDialog/raw/master/img/Screenshot_2018-12-20-15-11-02.png)
 
-``` kotlon
+### Example
+
+```kotlin
 SuperDialog.getInstance()
         .setLayoutId(R.layout.layout_center)
         .setConvertListener(object : ConvertListener {
