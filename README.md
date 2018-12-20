@@ -7,3 +7,6 @@
 <!-- ![顶部弹窗](https://github.com/ZapFIVE/SuperDialog/raw/master/img/Screenshot_2018-12-20-15-10-35.png) -->
 
 <img width="270" height="480" src="https://github.com/ZapFIVE/SuperDialog/raw/master/img/Screenshot_2018-12-20-15-10-35.png">
+<img width="270" height="480" src="https://github.com/ZapFIVE/SuperDialog/raw/master/img/Screenshot_2018-12-20-15-10-41.png">
+<img width="270" height="480" src="https://github.com/ZapFIVE/SuperDialog/raw/master/img/Screenshot_2018-12-20-15-10-55.png">
+<img width="270" height="480" src="https://github.com/ZapFIVE/SuperDialog/raw/master/img/Screenshot_2018-12-20-15-11-02.png">
