@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--BaseDialog样式-->
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!--顶部滑出-->
+    <style name="TopEnterExitAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_top</item>
+    </style>
+
+    <!--底部滑出-->
+    <style name="BottomEnterExitAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <!--中心显现-->
+    <style name="CenterEnterExitAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/fade_in_center</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_center</item>
+    </style>
+
+</resources>

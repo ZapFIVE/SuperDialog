@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_normal_show"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="普通弹窗"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_top_show"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="顶部弹窗"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_bottom_show"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="底部弹窗"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_center_show"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="中心弹窗"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_2_btn_show"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="通用双按钮弹窗"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_1_btn_show"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="通用单按钮弹窗"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_no_cancel_show"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="不可取消弹窗"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_on_listener_show"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="带有消失回调弹窗"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+</LinearLayout>
