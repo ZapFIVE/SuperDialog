@@ -8,7 +8,7 @@ import androidx.appcompat.widget.AppCompatImageView
 import com.five.widget.dialog.*
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity(), View.OnClickListener {
+class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -147,24 +147,5 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 .setAnimStyle(R.style.CenterEnterExitAnimation)
                 .setSize(300, 0)
                 .show(supportFragmentManager)
-    }
-
-    override fun onClick(v: View?) {
-        when (v?.id) {
-            R.id.btn_top_show -> {
-            }
-            R.id.btn_bottom_show -> {
-            }
-            R.id.btn_center_show -> {
-            }
-            R.id.btn_2_btn_show -> {
-            }
-            R.id.btn_1_btn_show -> {
-            }
-            R.id.btn_no_cancel_show -> {
-            }
-            R.id.btn_on_listener_show -> {
-            }
-        }
     }
 }
